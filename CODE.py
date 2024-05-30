@@ -15,7 +15,8 @@ def get_gemini_response(prompt):
     response = model.generate_content(prompt)
     return response.text
 
-
+st.title("CAREER ROADMAP SOLUTION USING MACHIN LEARNING AND WEB INTERFACE")
+st.write("A personalized tool powered by Machine Learning")
 Database_Fundamentals = st.selectbox("Select your level in Database fundamentals:", ["Begineer", "Poor", "Excellent", "Average", "Not interested", "Professional", "Intermediate"])
 Computer_architecture = st.selectbox("Select your level in computer architecture:", ["Begineer", "Poor", "Excellent", "Average", "Not interested", "Professional", "Intermediate"])
 Distributed_Computing_Systems = st.selectbox("Select your level in Distributed Computing Systems:", ["Begineer", "Poor", "Excellent", "Average", "Not interested", "Professional", "Intermediate"])
